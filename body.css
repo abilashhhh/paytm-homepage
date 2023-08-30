@@ -1,0 +1,992 @@
+
+.body-1-section {
+    display: flex;
+    width: 100%;
+    height: 700px;
+}
+
+.body-1-left-section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.paytm-logo-body-1-left {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 48px;
+}
+
+.body-1-left-section-h1 {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.body-1-left-section-para {
+    width: 479px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 65px;
+    display: block;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    text-rendering: optimizeLegibility;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding-top: 10px;
+
+}
+
+.download-button {
+    padding: 15px 24px 15px 24px;
+    border-radius: 40px;
+    border: 0px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 253.69px;
+    height: 46px;
+    margin-right: 10px;
+}
+
+.download-button:hover{
+    background-color: white;
+    border: .005px solid black;
+    color: #000;
+    font-weight: bold;
+} 
+.download-button:hover .apple-icon {
+    background-image: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='16' viewBox='0 0 14 16'><path d='M11.6593 15.3557C10.7589 16.1979 9.76546 16.0666 8.81854 15.6695C7.81182 15.2644 6.89149 15.2388 5.82828 15.6695C4.50426 16.2203 3.80155 16.0602 3.00415 15.3557C-1.49786 10.8883 -0.833353 4.08311 4.28331 3.82691C5.52427 3.89096 6.39311 4.48821 7.12406 4.53785C8.21052 4.32489 9.25047 3.71483 10.4133 3.79489C11.8105 3.90377 12.8554 4.43538 13.5531 5.3913C10.6791 7.05657 11.3603 10.7073 14 11.7321C13.4717 13.0691 12.7939 14.3902 11.6576 15.3669L11.6593 15.3557ZM7.02439 3.77888C6.88982 1.79336 8.55939 0.160122 10.4798 0C10.7439 2.28974 8.32017 4.00305 7.02439 3.77888Z' fill='black'/></svg>");
+
+}
+
+.download-button:hover .playstore-icon {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%2214%22%20height%3D%2216%22%20viewBox%3D%220%200%2014%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M0.088012%200.571735C0.0310801%200.726729%200%200.910797%200%201.121V14.8786C0%2015.0894%200.0311427%2015.2736%200.0881839%2015.4286L7.32808%207.9997L0.088012%200.571735ZM0.590122%2015.9564C0.85223%2016.0466%201.18264%2015.9995%201.54068%2015.7912L10.0736%2010.8165L7.83627%208.52109L0.590122%2015.9564ZM10.7221%2010.4391L13.3647%208.8987C14.2118%208.40415%2014.2118%207.59609%2013.3647%207.10217L10.7211%205.561L8.34443%207.99966L10.7221%2010.4391ZM10.073%205.18317L1.54068%200.209061C1.18252%200.000250885%200.852017%20-0.0466058%200.589868%200.0438429L7.83624%207.47828L10.073%205.18317Z%22%20fill%3D%22black%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E  ");
+}
+
+
+
+.apple-icon{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='16' viewBox='0 0 14 16'><path d='M11.6593 15.3557C10.7589 16.1979 9.76546 16.0666 8.81854 15.6695C7.81182 15.2644 6.89149 15.2388 5.82828 15.6695C4.50426 16.2203 3.80155 16.0602 3.00415 15.3557C-1.49786 10.8883 -0.833353 4.08311 4.28331 3.82691C5.52427 3.89096 6.39311 4.48821 7.12406 4.53785C8.21052 4.32489 9.25047 3.71483 10.4133 3.79489C11.8105 3.90377 12.8554 4.43538 13.5531 5.3913C10.6791 7.05657 11.3603 10.7073 14 11.7321C13.4717 13.0691 12.7939 14.3902 11.6576 15.3669L11.6593 15.3557ZM7.02439 3.77888C6.88982 1.79336 8.55939 0.160122 10.4798 0C10.7439 2.28974 8.32017 4.00305 7.02439 3.77888Z' fill='white'/></svg>");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 14px; 
+    height: 16px;
+}
+
+.playstore-icon {
+    width: 14px;
+    height: 16px;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%2214%22%20height%3D%2216%22%20viewBox%3D%220%200%2014%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M0.088012%200.571735C0.0310801%200.726729%200%200.910797%200%201.121V14.8786C0%2015.0894%200.0311427%2015.2736%200.0881839%2015.4286L7.32808%207.9997L0.088012%200.571735ZM0.590122%2015.9564C0.85223%2016.0466%201.18264%2015.9995%201.54068%2015.7912L10.0736%2010.8165L7.83627%208.52109L0.590122%2015.9564ZM10.7221%2010.4391L13.3647%208.8987C14.2118%208.40415%2014.2118%207.59609%2013.3647%207.10217L10.7211%205.561L8.34443%207.99966L10.7221%2010.4391ZM10.073%205.18317L1.54068%200.209061C1.18252%200.000250885%200.852017%20-0.0466058%200.589868%200.0438429L7.83624%207.47828L10.073%205.18317Z%22%20fill%3D%22white%22%3E%20%3C%2Fpath%3E%20%3C%2Fsvg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 14px; 
+    height: 16px;
+}
+
+
+
+
+.body-1-right-section {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    padding-top: 100px;
+    height: 100%;
+}
+
+.body-1-right-section-logo {
+    height: 528px;
+    width: 503.95px;
+}
+
+
+/* recharge section */
+
+.body-2-section {
+    width: 100%;
+    background-color: #00BAf2;
+    color: white;
+
+}
+
+.body-2-section-recharge-part {
+    width: 70%;
+    margin: auto;
+
+}
+
+.body-2-section-recharge-part-heading {
+    font-size: 36px;
+    padding-top: 70px;
+
+}
+
+
+
+
+.recharge-contents {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.recharger-items-to-hover {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 16px 25px 16px 16px;
+    cursor: pointer;
+}
+
+.recharger-items-to-hover:hover {
+    border-radius: 8px;
+    background-color: rgba(108, 106, 104, 0.458);
+}
+
+.recharge-logo-1 {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 5px;
+}
+
+
+.body-2-section-book {
+    width: 100%;
+    height: 357.33px;
+    background-color: #0f4a8a;
+    color: white;
+
+}
+
+.body-2-section-book-part {
+    width: 70%;
+    margin: auto;
+
+}
+
+.body-2-section-book-part-heading {
+    font-size: 36px;
+    padding-top: 70px;
+
+}
+
+.book-contents {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.book-items-to-hover {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 25px;
+    cursor: pointer;
+}
+
+.book-items-to-hover:hover {
+    border-radius: 8px;
+    background-color: rgba(47, 44, 42, 0.298);
+}
+
+.book-logo-1 {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 5px;
+}
+
+.body-3-section {
+    width: 100%;
+    background-color: #f5f7fa;
+
+}
+
+.body-3-heading-section {
+    width: 1170px;
+    height: 200px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 35px;
+    margin-left: 372px;
+    margin-right: 372px;
+    display: block;
+
+
+}
+
+.body-3-heading-section-h1 {
+    padding-top: 120px;
+    width: 1170px;
+    height: 50px;
+}
+
+.set-bg-color {
+    margin-top: -35px;
+    background-color: #f5f7fa;
+}
+
+.body-4-section {
+    display: flex;
+    width: 1170px;
+    height: 620px;
+    margin-block-end: 35px;
+    margin-block-start: 10px;
+    margin-bottom: 35px;
+    margin-inline-end: 372px;
+    margin-inline-start: 372px;
+    margin-left: 372px;
+    border-radius: 20px;
+    margin-right: 372px;
+    background-color: #ffffff;
+
+}
+
+
+.body-4-left-section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-left: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.body-4-left-section-h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    margin-top: 48px;
+    background-color: #ffffff;
+}
+
+.body-4-left-section-para {
+    width: 479px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    display: block;
+    margin-bottom: 40px;
+    padding-top: 10px;
+    text-rendering: optimizeLegibility;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding-top: 24px;
+    padding-bottom: 30px;
+    background-color: white;
+
+}
+
+.body-4-right-section {
+    display: flex;
+    padding-top: 80px;
+    border-radius: 25px;
+    width: 539px;
+    height: 460px;
+    background-color: white;
+}
+
+
+
+.paytm-logo-body-4-left {
+    height: 92px;
+    height: 77px;
+}
+
+.paytm-wallet {
+    display: flex;
+    align-items: start;
+}
+
+.paytmm {
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
+.learn-more-button {
+    border-radius: 40px;
+    border: 0px;
+    font-size: 17px;
+    color: white;
+    background-color: rgb(0, 41, 112);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 162.95px;
+    height: 49px;
+    padding-right: 5px;
+}
+
+.learn-more-hover1 {
+    opacity: 0;
+   
+    padding: 17px;
+    border: 0px;
+    font-size: 20px;
+    margin-top: 20px;
+    
+   
+
+}
+
+.learn-more-button:hover .learn-more-hover1{
+    font-size: 50px;
+    opacity: 1;
+    transition: ease-in-out .3s;
+    border: 0px;
+    margin-top: 32px;
+
+  
+}
+
+
+.learn-more-button:hover .learn-more-hover2{
+    opacity: 0;
+    transition: ease-out .2s;
+    
+
+}
+
+
+
+.learn-more-hover2 {
+    font-size: 20px;
+    opacity: 1;
+    margin-left: -20px;
+
+    
+}
+
+
+
+.learn-more-button:hover {
+    background-color: #00BAf2;
+    transition: background-color .2s ease-out, opacity .2s;
+}
+
+.credit-card-img {
+    width: 462.97px;
+    height: 295.99px;
+}
+
+
+.body-5-section {
+    display: flex;
+    width: 465.01px;
+    height: 700px;
+    margin-left: 372px;
+    border-radius: 20px;
+    padding-left: 100px;
+    background-color: #ffffff;
+
+}
+
+.body-5-right-section {
+    display: flex;
+    width: 465.01px;
+    height: 700px;
+    margin-left: 180px;
+    border-radius: 20px;
+    padding-left: 100px;
+    background-color: #ffffff;
+
+}
+
+.paytm-logo-body-5-right {
+    height: 196.11px;
+    height: 20px;
+    padding-top: 20px;
+    margin: 70px 64px 50px 0px;
+}
+
+.credit-card-img2 {
+    height: 296px;
+}
+
+.body-5-right-section-h1 {
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.body-5-right-section-para {
+    margin-bottom: 90px;
+    line-height: 30px;
+}
+
+.body-4-below-part {
+    width: 100%;
+    height: 120px;
+    background-color: #f5f7fa;
+
+}
+
+.financial-part {
+    width: 100%;
+    height: 824.72px;
+
+}
+
+.body-6-left-section {
+    padding-top: 50px;
+    display: flex;
+}
+
+.paytm-logo-body-6-left {
+    width: 212px;
+    padding-top: 20px;
+    padding-bottom: 12px;
+}
+
+.body-6-left-section-para {
+    display: flex;
+    padding-top: 12px;
+    display: block;
+    width: 515px;
+    margin-bottom: 45px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.body-6-right-section {
+    display: flex;
+    margin-left: 1100px;
+    width: 452px;
+    height: 499px;
+}
+
+.body-7-background {
+    display: flex;
+    position: relative;
+
+}
+
+.body-7-background-img {
+    padding-top: 48px;
+    display: flex;
+    position: absolute;
+    width: 1914px;
+    height: 587px;
+    background-color: #f5f7fa;
+
+
+}
+
+.body-7-img {
+    width: 472px;
+    height: 427.94px;
+    display: flex;
+    position: absolute;
+
+}
+
+.body-7-image {
+    margin-top: 118px;
+    margin-left: 377.594px;
+    display: flex;
+    position: relative;
+    width: 472px;
+    height: 427.94px;
+    justify-content: flex-start;
+}
+
+.body-7-contents {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-left: 500px;
+
+
+
+}
+
+.paytm-money {
+    display: flex;
+    padding-top: 87px;
+    padding-bottom: 50px;
+
+}
+
+.paytm-logo-money {
+    display: flex;
+    width: 156.67px;
+    height: 54px;
+
+}
+
+.body-7-right-h1 {
+    display: flex;
+    margin-bottom: 48px;
+    font-size: 40px;
+}
+
+.body-7-right-section-para {
+    display: flex;
+    line-height: 26px;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.body-4-left-section-h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    margin-top: 48px;
+    background-color: #ffffff;
+}
+
+.paytm-logo-7 {
+    display: flex;
+    height: 54px;
+    width: 182.75;
+    margin-top: 180px;
+}
+
+.body-7-right-section {
+    display: flex;
+    width: 433px;
+    height: 398.5px;
+    margin-left: 1000px;
+}
+
+.body-8-contents {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-left: 1000px;
+}
+
+.business {
+    padding-top: 750px;
+    width: 1170px;
+    margin: 0 auto 35px;
+    font-size: 48px;
+    color: #000;
+    font-weight: 700;
+    line-height: 50px;
+
+}
+
+.section-after-business-services {
+    height: 560.16px;
+    width: 1170px;
+    margin: 0 auto 35px;
+    display: flex;
+    border-radius: 25px;
+    background-color: #f5f7fa;
+}
+
+.section-1-left {
+
+    width: 45%;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 115px;
+
+}
+
+.section-1-right {
+
+    width: 45%;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 115px;
+}
+
+.section-1-right-images {
+    width: 433px;
+    height: 464.17px;
+    margin-left: 37px;
+
+}
+
+.section-1-left-heading {
+    margin-top: 88px;
+    width: 390px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+}
+
+.section-1-left-para {
+    font-size: 17px;
+    font-weight: 500;
+    height: 52px;
+    line-height: 26px;
+    padding-bottom: 30px;
+    padding-left: 0% 0px;
+    padding-right: 0px;
+    padding-top: 24px;
+}
+
+.learn-more-new2 {
+    margin-top: 20px;
+}
+
+.section-2-right-images {
+    width: 433px;
+    height: 341.69px;
+    margin-left: 37px;
+
+}
+
+.business-tools {
+    margin-left: 370px;
+    margin-top: 180px;
+}
+
+.business-tool {
+    padding-bottom: 89px;
+    width: 480px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+
+}
+
+.after-business-tools {
+    width: 1170px;
+    height: 507px;
+    margin: 0 auto 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.box-box-1 {
+    display: flex;
+    height: 100%;
+    width: 240px;
+    
+}
+
+.box-img-1 {
+    height: 240px;
+    width: 240px;
+}
+
+.box-h1 {
+    height: 124px;
+    width: 240px;
+}
+
+.box-h1-1 {
+    padding: 40px 0 20px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.para-p1 {
+    height: 60px;
+    width: 240px;
+}
+
+.para-p1-1 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.learn-more-1 {
+    height: 30px;
+    width: 240px;
+}
+
+.learn-more-1-1 {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.para-p1-2 {
+    height: 90px;
+    width: 240px;
+}
+
+.learn-more-link{
+    padding-top: 10px;
+    font-size: 17px;
+    color: #00baf2;
+    font-weight: 500;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.learn-more-link:hover{
+    color: #405960;
+}
+
+.space-in-between {
+    margin-top: 150px;
+}
+
+.all-scrolls {
+    height: 240px;
+    width: 1170px;
+    margin: 0 auto 35px;
+
+}
+
+.scrolling-boxes-1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 60px;
+}
+
+
+.paytm-money-1 {
+    display: flex;
+    height: 100%;
+    padding: 5px;
+}
+
+.paytm-money-1-1-1 {
+    width: 160px;
+    height: 58.69px;
+    margin-right: -30px;
+}
+
+.paytm-paragra-1 {
+
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    width: 200px;
+    height: 123px;
+}
+
+.paytm-money-para-1 {
+
+    margin-top: 35px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.learn-more-link {
+
+    padding-top: 10px;
+    font-size: 17px;
+    color: #00baf2;
+    font-weight: 500;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.learn-more-link:hover {
+    color: #405960;
+}
+
+
+
+.inner-box-1 {
+    width: 150px;
+    height: 240px;
+    border-radius: 10px;
+    background-color: #00baf2ab;
+    padding: 5px;
+    margin-right: 36px;
+    margin-top: 20px;
+    opacity: 0.7;
+
+    
+}
+
+.img-container {
+    border-radius: 10px;
+     overflow: hidden; 
+     display: flex;
+     align-items: center;
+}
+
+.inner-box-1:hover {
+    width: 150px;
+    opacity: 1;
+    background-color: #06ade0;
+    margin-right: 36px;
+    transition: 0.3s;
+    cursor: pointer;
+    
+
+}
+
+
+.inner-box-1:hover .img-classs {
+    width: 140px;
+    height: 153px;
+    opacity: 1;
+    transition: opacity 1s;
+    transform: scale(1.15); 
+    
+}
+
+.img-classs {
+    width: 140px;
+    height: 153px;
+    opacity: 0.9;
+    
+    
+}
+
+.hoovwee {
+    display: flex;
+    position: fixed;
+    width: 150px;
+    height: 240px;
+}
+
+.text-content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 114px;
+    height: 72px;
+    padding-top: 1px;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0 auto 35px;
+
+}
+
+.text-para {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+.Main-box-1-2 {
+    width: 155px;
+    background-color: #00baf2;
+    margin-right: 36px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    opacity: 0.7;
+    border-radius: 10px;
+
+}
+
+.Main-box-1-2:hover{
+    opacity: 1;
+    transition: opacity .05s;
+    background-color: #06ade0;
+}
+
+.inner-box-main {          
+    cursor: pointer;
+    padding: 30px 11px 11px 11px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    min-width: 133px;
+    min-height: 189px;
+
+
+}
+
+.headingggg {
+    font-size: 17px;
+    color: #fff;
+    display: flex;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.div-2-0 {
+    display: flex;
+    color: white;
+    font-size: 17px;
+    font-weight: 700px;
+    line-height: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.div-3-0 {
+    font-weight: 500;
+    line-height: 22px;
+    font-size: 12px;
+    display: flex;
+    padding-top: 3px;
+}
+
+.image-is-here {
+    display: flex;
+    height: 72px;
+    width: 72px;
+    border-radius: 100%;
+
+}
+
+
+.wrapper {
+    max-height: auto;
+    display: flex;
+    overflow-x: auto;
+}
+
+.wrapper::-webkit-scrollbar {
+    width: 0;
+}
+
+.wrapper.inner-box-1 {
+    min-width: 115px;
+    text-align: center;
+    height: auto;
+}
+
+.wrapper2{
+    max-height: auto;
+    display: flex;
+    overflow-x: auto;
+}
+
+
+.wrapper2::-webkit-scrollbar {
+    width: 0;
+}
+
+.wrapper2.Main-box-1-2 {
+    min-width: 133px;
+    text-align: center;
+    height: auto;
+}
+
